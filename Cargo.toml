@@ -1,0 +1,8 @@
+[package]
+name = "cuda-event"
+version = "0.1.0"
+edition = "2021"
+description = "Event system — pub/sub, event sourcing, sagas, CQRS read models, and reliable event delivery for agent fleets"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }

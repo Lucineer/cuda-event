@@ -2,7 +2,12 @@
 name = "cuda-event"
 version = "0.1.0"
 edition = "2021"
-description = "Event system — pub/sub, event sourcing, sagas, CQRS read models, and reliable event delivery for agent fleets"
+description = "Event bus — pub/sub, event sourcing, replay, dead letter queue"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Lucineer/cuda-event"
+readme = "README.md"
+keywords = ["ai", "fleet", "agent", "rust"]
+categories = ["science"]
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
